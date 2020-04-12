@@ -8,5 +8,5 @@ app.use(express.static("./assets"));
 
 todocontroller(app);
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 console.log("rishi")
